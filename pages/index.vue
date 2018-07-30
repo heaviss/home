@@ -1,7 +1,35 @@
 <template>
-  <section class="container">
-    <div>
-      <p>Hello</p>
+  <section class="section">
+    <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-5">
+        <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="~assets/photo.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title">Привет, я Вова Серёгин.</p>
+              <p>Я учусь программировать на python (django) и javascript (vue.js).</p>
+              <p>Ещё мне интересны дизайн, редактура, устройство людей, рациональное мышление и сочинение музыки.</p>
+              <p>Веду с Верой Иноземцевой <a href="https://t.me/listen2it">канал в телеграме</a>, где она читает вслух клёвые статьи. Ещё иногда пишу в <a href="https://t.me/rdpms">блог</a>.</p>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  <a href="https://t.me/heavis">Telegram</a>
+                </span>
+              </p>
+              <p class="card-footer-item">
+                <span>
+                  <a href="https://github.com/heaviss/">Github</a>
+                </span>
+              </p>
+            </footer>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -10,32 +38,12 @@
 
 </script>
 
-<style>
-.container
-{
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+<style lang="scss">
 .title
 {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
 }
-.subtitle
-{
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+
 .links
 {
   padding-top: 15px;
