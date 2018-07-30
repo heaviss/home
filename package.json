@@ -14,6 +14,7 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
+    "bulma": "^0.7.1",
     "nuxt": "^1.0.0"
   },
   "devDependencies": {
@@ -22,6 +23,10 @@
     "eslint": "^5.0.1",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-vue": "^4.0.0",
-    "push-dir": "^0.4.1"
+    "node-sass": "^4.9.2",
+    "nuxt-sass-resources-loader": "^2.0.3",
+    "push-dir": "^0.4.1",
+    "sass-loader": "^7.0.3",
+    "vue-style-loader": "^4.1.1"
   }
 }
