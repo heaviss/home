@@ -1,6 +1,6 @@
-# heaviss.github.io
+# Heavis&#39;s site
 
-> Heavis&#39;s site with nuxt.js
+> Built with nuxt.js
 
 ## Build Setup
 
