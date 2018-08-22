@@ -2,7 +2,7 @@
   <section class="section">
     <div class="container">
     <div class="columns is-centered">
-      <div class="column is-5">
+      <div class="column is-6">
         <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
@@ -10,13 +10,19 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title">Привет, я Вова Серёгин.</p>
+              <RansomNote class="title" text='Привет!'/>
+              <RansomNote class="title" text='Я Вова Серёгин'/>
               <p>Я — «немного».</p>
-              <p>Немного программирую на python (django) и javascript (vue.js). Мой <a href="https://github.com/heaviss/ransomnote">ransomnote</a> пишет буквы, будто они вырезаны из газеты.</p>
+              <p>Немного программирую на python (django) и javascript (vue.js). Буквы сверху — работа моего <a href="https://github.com/heaviss/ransomnote">ransomnote</a>.</p>
+              <br>
               <p>Немного сочиняю музыку, учусь играть на гитаре и губной гармошке.</p>
+              <br>
               <p>Немного пишу (в <a href="https://t.me/rdpms">телеграм-канал</a>, занял 9 место на <a href="https://challenge.glvrd.ru/mtv.html">вызове Главреда</a>).</p>
+              <br>
               <p>Много читаю, потому что люблю (45 книг в 2016, <a href="telegra.ph/thisage--26-02-19">31 в 2017</a>). Читаю про разработку, дизайн, редактуру, устройство людей, рациональное мышление и сочинение музыки. И фантастику.</p>
+              <br>
               <p>Веду с Верой Иноземцевой <a href="https://t.me/listen2it">канал «Слушай чё»</a>, где она читает вслух клёвые статьи.</p>
+              <br>
               <p>Сейчас работаю безопасником в ЦФТ.</p>
             </div>
             <footer class="card-footer">
@@ -39,7 +45,12 @@
 </template>
 
 <script>
-
+import RansomNote from 'ransomnote';
+export default {
+  components: {
+    RansomNote
+  },
+}
 </script>
 
 <style lang="scss">
